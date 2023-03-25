@@ -5,6 +5,7 @@ import com.zd.project.annotation.AuthCheck;
 import com.zd.project.common.ErrorCode;
 import com.zd.project.exception.BusinessException;
 import com.zd.project.service.UserService;
+import com.zd.zdcommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
