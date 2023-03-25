@@ -2,7 +2,7 @@ package com.zd.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zd.project.model.entity.User;
+import com.zd.zdcommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

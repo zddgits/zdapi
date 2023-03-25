@@ -5,7 +5,6 @@ import com.zd.project.common.ErrorCode;
 import com.zd.project.exception.BusinessException;
 import com.zd.project.mapper.InterfaceInfoMapper;
 import com.zd.project.service.InterfaceInfoService;
-import com.zd.project.model.entity.InterfaceInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

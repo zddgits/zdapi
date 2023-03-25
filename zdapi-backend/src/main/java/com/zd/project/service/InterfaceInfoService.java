@@ -1,8 +1,7 @@
 package com.zd.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zd.project.model.entity.InterfaceInfo;
-import com.zd.project.model.entity.Post;
+import com.zd.zdcommon.model.entity.InterfaceInfo;
 
 /**
 * @author zdsss

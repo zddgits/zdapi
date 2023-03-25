@@ -1,7 +1,9 @@
 package com.zd.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zd.project.model.entity.UserInterfaceInfo;
+import com.zd.zdcommon.model.entity.UserInterfaceInfo;
+
+import java.util.List;
 
 /**
 * @author zdsss
@@ -10,7 +12,7 @@ import com.zd.project.model.entity.UserInterfaceInfo;
 * @Entity generator.domain.UserInterfaceInfo
 */
 public interface UserInterfaceInfoMapper extends BaseMapper<UserInterfaceInfo> {
-
+    List<UserInterfaceInfo> listTopInvokeInterfaceInfo(int limit);
 }
 
 

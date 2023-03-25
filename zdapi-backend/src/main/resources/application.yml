@@ -36,3 +36,12 @@ zdapi:
   client:
     access-key: 12345
     secret-key: abcdef
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848
